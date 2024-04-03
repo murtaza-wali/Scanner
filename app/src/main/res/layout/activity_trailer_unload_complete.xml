@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".TrailerUnloadCompleteActivity">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxTrailerWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/trailerWrapper" >
+        <EditText
+            android:id="@+id/uxTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/trailerWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent" />
+    </android.support.design.widget.TextInputLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:text="@string/trailerstatustext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/trailerstatustext" />
+    <Spinner
+        android:id="@+id/uxTrailerStatus"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/trailerstatusarray" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/uxButtonPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post" />
+</LinearLayout>

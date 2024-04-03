@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".TrailerUnloadActivity">
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxTrailerWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/trailerWrapper" >
+        <EditText
+            android:id="@+id/uxTrailer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/trailerWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxUnloadDoorWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/unloadDoorWrapper" >
+        <EditText
+            android:id="@+id/uxUnloadDoor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/unloadDoorWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent" />
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxTrailerSealWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/trailerSealWrapper" >
+        <EditText
+            android:id="@+id/uxTrailerSeal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/trailerSealWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent" />
+    </android.support.design.widget.TextInputLayout>
+</LinearLayout>

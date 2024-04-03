@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/action_logoff" android:title="@string/actionLogoff"/>
+    <item android:id="@+id/action_About" android:title="@string/actionAbout"/>
+    <item android:id="@+id/action_SelectScanner" android:title="@string/actionSelectScanner"/>
+    <item android:id="@+id/uxClearScannedLog"
+        android:titleCondensed="@string/actionClear"
+        android:title="@string/actionClear" />
+    <item android:id="@+id/action_PrintPrinterLabel" android:title="@string/actionPrintLabel"/>
+    <item android:id="@+id/action_RecordAssetTag" android:title="@string/actionRecordAsset"/>
+    <item android:id="@+id/uxLanguages"
+        android:title="@string/languages">
+        <menu>
+            <item android:id="@+id/uxEnglish"
+                android:title="@string/english" />
+            <item android:id="@+id/uxSpanish"
+                android:title="@string/spanish" />
+            <item android:id="@+id/uxFrench" android:title="@string/french" />
+            <item android:id="@+id/uxHaitianCreole"
+                android:title="@string/haitianCreole" />
+        </menu>
+    </item>
+    <item android:id="@+id/action_Exit" android:title="@string/actionExit"/>
+</menu>

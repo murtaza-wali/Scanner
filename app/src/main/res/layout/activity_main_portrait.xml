@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:fadeScrollbars="false"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:measureWithLargestChild="false"
+            android:touchscreenBlocksFocus="false">
+
+            <TableRow android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/uxcmdOS"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionOs"
+                    android:minHeight="80dp"
+                    android:text="@string/os"
+                    android:textColor="@color/actionOsText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/uxcmdRD"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionRd"
+                    android:minHeight="80dp"
+                    android:text="@string/rd"
+                    android:textColor="@color/actionRdText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="20dp">
+
+
+                <Button
+                    android:id="@+id/uxcmdPS"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionPs"
+                    android:minHeight="80dp"
+                    android:text="@string/ps"
+                    android:textColor="@color/actionPsText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+
+            <TableRow android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/uxcmdExceptions"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionAh"
+                    android:minHeight="80dp"
+                    android:text="@string/exceptions"
+                    android:textColor="@color/actionAhText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+            <TableRow android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/uxcmdZipLookup"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionZipLookup"
+                    android:minHeight="80dp"
+                    android:text="@string/ziplookup"
+                    android:textColor="@color/actionZipLookupText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+<!--            <TableRow android:paddingBottom="20dp">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/uxcmdSortLabel"-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="fill_parent"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:background="@color/actionSortLabel"-->
+<!--                    android:minHeight="80dp"-->
+<!--                    android:text="Sort Label"-->
+<!--                    android:textColor="@color/actionSortLabelText"-->
+<!--                    android:textSize="18dp" />-->
+<!--            </TableRow>-->
+
+            <TableRow android:paddingBottom="20dp">
+
+                <Button
+                    android:id="@+id/uxcmdStaples"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="@color/actionStaples"
+                    android:minHeight="80dp"
+                    android:text="@string/staples"
+                    android:textColor="@color/actionStaplesText"
+                    android:textSize="18dp" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

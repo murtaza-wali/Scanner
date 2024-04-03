@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".AHActivity">
+    <TextView
+        android:text="@string/ah_subscantext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSubScan" />
+
+    <Spinner
+        android:id="@+id/uxSubScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ah_subscans" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <TextView
+        android:text="@string/ah_reasontext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewReason" />
+
+    <Spinner
+        android:id="@+id/uxReason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ah_reasons" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxCodeWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codeWrapper" >
+        <EditText
+            android:id="@+id/uxCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/codeWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent" />
+    </android.support.design.widget.TextInputLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uxWebView" />
+
+</LinearLayout>

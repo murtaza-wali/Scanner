@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionOs">#ed1b2e</color>
+    <color name="actionOsText">#000000</color>
+
+    <color name="actionRd">#6d6e70</color>
+    <color name="actionRdText">#eeeeee</color>
+
+    <color name="actionXl">#d7d7d8</color>
+    <color name="actionXlText">#000000</color>
+
+    <color name="actionSd">#b4a996</color>
+    <color name="actionSdtText">#000000</color>
+
+    <color name="actionAh">#ecb731</color>
+    <color name="actionAhText">#000000</color>
+
+    <color name="actionStaples">#8ec06c</color>
+    <color name="actionStaplesText">#000000</color>
+
+    <color name="actionHw">#537b35</color>
+    <color name="actionHwText">#eeeeee</color>
+
+    <color name="actionPs">#c4dff6</color>
+    <color name="actionPsText">#000000</color>
+
+    <color name="actionUspsOs">#56a0d3</color>
+    <color name="actionUspsOsText">#000000</color>
+
+    <color name="actionUNASSIGNED">#0091cd</color>
+    <color name="actionUNASSIGNEDText">#000000</color>
+
+    <color name="actionUspsRd">#004b79</color>
+    <color name="actionUspsRdText">#dddddd</color>
+
+    <color name="actionWfRd">#7f181b</color>
+    <color name="actionWfRdText">#eeeeee</color>
+
+    <color name="actionWfBin">#d7d7d8</color>
+    <color name="actionWfBinText">#000000</color>
+
+    <color name="actionZipLookup">#9f9fa3</color>
+    <color name="actionZipLookupText">#000000</color>
+
+    <color name="actionSortLabel">#ed1b2e</color>
+    <color name="actionSortLabelText">#000000</color>
+
+    <color name="actionTrailerMgmt">#6d6e70</color>
+    <color name="actionTrailerMgmtText">#eeeeee</color>
+
+    <color name="actionTrailerLoad">#d7d7d8</color>
+    <color name="actionTrailerLoadText">#000000</color>
+
+    <color name="actionTrailerUnload">#d7d7d8</color>
+    <color name="actionTrailerUnloadText">#000000</color>
+
+    <color name="actionTrailerUnloadComplete">#b4a996</color>
+    <color name="actionTrailerUnloadCompleteText">#000000</color>
+
+    <color name="black">#000000</color>
+    <color name="red">#ed1b2e</color>
+
+</resources>

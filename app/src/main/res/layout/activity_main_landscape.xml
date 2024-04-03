@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    tools:context=".MainActivity">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:touchscreenBlocksFocus="false"
+            android:measureWithLargestChild="false">
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="70dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="OS"
+                    android:id="@+id/uxcmdOS"
+                    android:layout_weight="1"
+                    android:background="@color/actionOs"
+                    android:textColor="@color/actionOsText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="RD"
+                    android:id="@+id/uxcmdRD"
+                    android:layout_weight="1"
+                    android:background="@color/actionRd"
+                    android:textColor="@color/actionRdText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="DIM"
+                    android:id="@+id/uxcmdDIM"
+                    android:layout_weight="1"
+                    android:background="@color/actionXl"
+                    android:textColor="@color/actionXlText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="SD"
+                    android:id="@+id/uxcmdSD"
+                    android:layout_weight="1"
+                    android:background="@color/actionSd"
+                    android:textColor="@color/actionSdtText"
+                    android:textSize="18dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="70dp">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="AH"
+                    android:id="@+id/uxcmdAH"
+                    android:layout_weight="1"
+                    android:background="@color/actionAh"
+                    android:textColor="@color/actionAhText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Staples"
+                    android:id="@+id/uxcmdStaples"
+                    android:layout_weight="1"
+                    android:background="@color/actionStaples"
+                    android:textColor="@color/actionStaplesText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="HW"
+                    android:id="@+id/uxcmdHW"
+                    android:layout_weight="1"
+                    android:background="@color/actionHw"
+                    android:textColor="@color/actionHwText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="PS"
+                    android:id="@+id/uxcmdPS"
+                    android:layout_weight="1"
+                    android:background="@color/actionPs"
+                    android:textColor="@color/actionPsText"
+                    android:textSize="18dp"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="70dp">
+
+                <!--<Button-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:text="WF RD SCAN"-->
+                    <!--android:id="@+id/uxcmdWfRD"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@color/actionWfRd"-->
+                    <!--android:textColor="@color/actionWfRdText"-->
+                    <!--android:textSize="18dp"-->
+                    <!--/>-->
+
+                <!--<Button-->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="fill_parent"-->
+                    <!--android:text="WF BIN SCAN"-->
+                    <!--android:id="@+id/uxcmdWfBin"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@color/actionWfBin"-->
+                    <!--android:textColor="@color/actionWfBinText"-->
+                    <!--android:textSize="18dp"-->
+                    <!--/>-->
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="USPS CON OS"
+                    android:id="@+id/uxcmdUspsOS"
+                    android:layout_weight="1"
+                    android:background="@color/actionUspsOs"
+                    android:textColor="@color/actionUspsOsText"
+                    android:textSize="18dp"
+                    />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="USPS CONS RD"
+                    android:id="@+id/uxcmdUspsRD"
+                    android:layout_weight="1"
+                    android:background="@color/actionUspsRd"
+                    android:textColor="@color/actionUspsRdText"
+                    android:textSize="18dp"
+                    />
+                <Button
+                    android:text="ZIP LOOKUP"
+                    android:id="@+id/uxcmdZipLookup"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/actionZipLookup"
+                    android:textColor="@color/actionZipLookupText"
+                    android:textSize="18dp"
+                    />
+                <Button
+                    android:text="Sort Label"
+                    android:id="@+id/uxcmdSortLabel"
+                    android:layout_height="fill_parent"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:background="@color/actionSortLabel"
+                    android:textColor="@color/actionSortLabelText"
+                    android:textSize="18dp" />
+            </TableRow>
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:minHeight="70dp">
+<!--
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Trailer Mgmt"
+                    android:id="@+id/uxcmdTrailerMgmt"
+                    android:layout_weight="1"
+                    android:background="@color/actionTrailerMgmt"
+                    android:textColor="@color/actionTrailerMgmtText"
+                    android:textSize="18dp"
+                    />
+-->
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="Trailer Load"
+                    android:id="@+id/uxcmdTrailerLoad"
+                    android:layout_weight="1"
+                    android:background="@color/actionTrailerLoad"
+                    android:textColor="@color/actionTrailerLoadText"
+                    android:textSize="18dp"
+                    />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="LD"
+                    android:id="@+id/uxcmdLD"
+                    android:layout_weight="1"
+                    android:background="@color/actionRd"
+                    android:textColor="@color/actionRdText"
+                    android:textSize="18dp"
+                    />
+<!--                <Space-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="fill_parent"-->
+<!--                android:layout_weight="1" />-->
+                <Space
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" />
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/uxSyncUsers"
+        android:titleCondensed="@string/syncUsersCond"
+        android:title="@string/syncUsers"/>
+    <item android:id="@+id/uxSyncZips"
+        android:titleCondensed="@string/syncZipsCond"
+        android:title="@string/syncZips" />
+    <item android:id="@+id/uxSyncAll"
+        android:titleCondensed="@string/syncAllCond"
+        android:title="@string/syncAll" />
+    <item android:id="@+id/uxClearUsers"
+        android:titleCondensed="@string/clearUsersCond"
+        android:title="@string/clearUsers" />
+    <item android:id="@+id/uxClearZipScheme"
+        android:titleCondensed="@string/clearZipSchemeCond"
+        android:title="@string/clearZipScheme" />
+    <item android:id="@+id/uxClearScannedLog"
+        android:titleCondensed="@string/clearScannedLog"
+        android:title="@string/clearScannedLog" />
+    <item android:id="@+id/uxLanguages"
+        android:title="@string/languages">
+        <menu>
+            <item android:id="@+id/uxEnglish"
+                android:title="@string/english" />
+            <item android:id="@+id/uxSpanish"
+                android:title="@string/spanish" />
+            <item android:id="@+id/uxFrench" android:title="@string/french" />
+            <item android:id="@+id/uxHaitianCreole"
+                android:title="@string/haitianCreole" />
+        </menu>
+    </item>
+</menu>

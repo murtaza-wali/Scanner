@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ontrac.warehouse">
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="com.symbol.emdk.permission.EMDK" />
+
+    <application
+        android:name=".BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="OnTrac Warehouse"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:configChanges="locale">
+        <activity android:name=".RecordAssetTagActivity" />
+        <activity android:name=".SelectScannerActivity" />
+        <activity android:name=".TrailerUnloadCompleteActivity" />
+        <activity android:name=".TrailerLoadActivity" />
+        <activity android:name=".TrailerUnloadActivity" />
+        <activity android:name=".TrailerCloseActivity" />
+        <activity android:name=".TrailerOpenActivity" />
+
+        <uses-library
+            android:name="com.symbol.emdk"
+            android:required="false" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ExceptionActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Sandbox.ScannerTestActivity" />
+        <activity android:name=".ZipInfoActivity" />
+        <activity android:name=".SinglePromptActivity" />
+        <activity android:name=".DualPromptActivity" />
+        <activity android:name=".Sandbox.TestScanOneActivity" />
+        <activity android:name=".Sandbox.TestScanTwoActivity" />
+        <activity android:name=".Sandbox.TestLauncherActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="6bb7c68c917dcbdabf2ab3c6c96716f913543c3e" />
+
+        <receiver android:name=".Receivers.PowerControlReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".AHActivity" />
+        <activity android:name=".DimActivity" />
+        <activity android:name=".SortLabelActivity" />
+        <activity android:name=".PrintPrinterLabelActivity" />
+        <activity android:name=".TrailerMgmtActivity" />
+        <activity android:name=".PrintConfirmationActivity" />
+        <activity android:name=".ConfirmationActivity" />
+    </application>
+
+</manifest>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".DimActivity">
+
+    <TextView
+        android:text="@string/dim_statustext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewStatus" />
+
+    <Spinner
+        android:id="@+id/uxStatus"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:entries="@array/ah_subscans" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/uxCodeWrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/codeWrapper" >
+        <EditText
+            android:id="@+id/uxCode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/codeWrapper"
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="@android:color/transparent"
+            android:nextFocusForward="@+id/uxCode" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/uxLengthWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dim_hintLength">
+
+            <EditText
+                android:id="@+id/uxLength"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dim_hintLength"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColorHint="@android:color/transparent"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/uxWidthWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dim_hintWidth">
+
+            <EditText
+                android:id="@+id/uxWidth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dim_hintWidth"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColorHint="@android:color/transparent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/uxHeightWrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/dim_hintHeight">
+
+            <EditText
+                android:id="@+id/uxHeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/dim_hintHeight"
+                android:imeOptions="actionDone"
+                android:inputType="number"
+                android:maxLength="3"
+                android:textColorHint="@android:color/transparent" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Space
+            android:layout_width="2dp"
+            android:layout_height="match_parent" />
+        <Button
+            android:id="@+id/buttonRepeat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dim_repeat" />
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/uxWebView" />
+
+
+</LinearLayout>

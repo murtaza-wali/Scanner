@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/clear"
+        android:id="@+id/uxClear" />
+    <item android:title="@string/refreshScanner"
+        android:id="@+id/uxRefreshScanner" />
+</menu>

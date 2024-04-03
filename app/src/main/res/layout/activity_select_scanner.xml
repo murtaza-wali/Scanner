@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    tools:context=".SelectScannerActivity">
+
+    <TextView
+        android:text="@string/CurrentScannerString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewCurrentScanner" />
+    <EditText
+        android:id="@+id/uxCurrentScanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/CurrentScannerString"
+        android:imeOptions="actionDone"
+        android:inputType="text"
+        android:textColorHint="@android:color/transparent" />
+    <TextView
+        android:text="@string/SelectScannerString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSelectScanner" />
+    <Spinner
+        android:id="@+id/uxSpinnerScanDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:id="@+id/uxButtonSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save" />
+
+</LinearLayout>
